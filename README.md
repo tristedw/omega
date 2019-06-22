@@ -1,5 +1,5 @@
 # omega
-python voice assistant with IOT compatability
+python voice assistant with IOT compatability V0.1, just made it
 
 # about
 A python voice assistant, which is capable of controlling sonoff devices flashed with the [tasmota](https://github.com/arendst/Sonoff-Tasmota) firmware or even non modified Wemo smart plugs as well as other features and more to come.
@@ -35,7 +35,24 @@ git clone https://github.com/kanrinsha/omega.git && cd omega
 ```
 pip install -r requirements.txt
 ```
-10. run omega.py
+10. open config.ini and enter api keys for provided services
+11. run omega.py
 ```
 python omega.py
 ```
+# usage
+The keyword is "Omega" so once the application states that it is "Listening..." speak "Omega" wait for the ding sound and ask it a command.
+# commands
+The current commands you can ask it is:
+1. Turn on or off a smart device configureable ip in the config.ini file
+2. Weather based on geoip and using openweathermap
+3. Date and time.
+# WIP commands
+Soon to be released commands, also I do have this working currently but they are not stable:
+1. Chromecast streaming with Youtube, Spotify and Plex
+2. SMS recieving and sending...
+3. Calculator
+4. Timer
+5. Playing music
+6. IFTTT compatability
+If you want another feature feel free to ask.
