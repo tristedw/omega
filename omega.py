@@ -87,7 +87,7 @@ def recognize_callback():
         if 'chromecast stream ' in recognizer_result:
             cut = recognizer_result.replace('chromecast stream ', '')
             if 'movie' in cut:
-                movie = cut.replace('movie ', '').replace(' ', '+')
+                movie = cut.replace('movie', '').replace(' ', '+')
                 print(movie)
                 text_to_speech.tts("Searching and streaming movie " + movie)
                 chromecast.chromecast_control('movie', movie)
