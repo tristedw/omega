@@ -41,18 +41,27 @@ pip install -r requirements.txt
 python omega.py
 ```
 # usage
-The keyword is "Omega" so once the application states that it is "Listening..." speak "Omega" wait for the ding sound and ask it a command. You may need to setup snowboy and add the files from the installation into the omega directory, if so watch [this](https://www.youtube.com/watch?v=mUEm05ZAhhI) video. If you want to cast to Plex you will need to install both the Chromecast plugin for Plex and also setup FlexTV, which can be done [here](https://github.com/d8ahazard/FlexTV).
+The keyword is "Omega" so once the application states that it is "Listening..." speak "Omega" wait for the ding sound and ask it a command. You may need to setup snowboy and add the files from the installation into the omega directory, if so watch [this](https://www.youtube.com/watch?v=mUEm05ZAhhI) video. If you want to cast to Plex you will need to install both the Chromecast plugin for Plex and also setup FlexTV, which can be done [here](https://github.com/d8ahazard/FlexTV). Omega also does not record conversations outside of you saying the keyword, as it is using [snowboy](https://snowboy.kitt.ai/).
 # commands
-The current commands you can ask it is:
+The current commands you can ask it is: (You have to say the hotword and hear the 'ding' before asking)
+
   1. Turn on or off a smart device configureable ip in the config.ini file
+  
     Say 'Turn off [device]' to turn a configured device off
     Say 'Turn on' [device]' to turn a configured device on
+    
   2. Cast to a chromecast with Plex, or YouTube.
+  
     Say 'chromecast stream youtube [youtube video name or channel name]'(will get the latest video if you say channel)
+    
   3. Weather based on geoip and using openweathermap
+  
     Say anything close to what's the weather (multiple keywords for less remembering)
+    
   4. Date and time.
+  
     Say anything close to what's the time
+    
 # WIP commands
 Soon to be released commands, also I do have this working currently but they are not stable:
 
