@@ -5,38 +5,38 @@ python voice assistant with IOT and Chromecast compatability V0.2
 A python voice assistant, which is capable of controlling sonoff devices flashed with the [tasmota](https://github.com/arendst/Sonoff-Tasmota) firmware or even non modified Wemo smart plugs. You can also cast to a chromecast with ethier setting up and using [FlexTV](https://github.com/d8ahazard/FlexTV) to cast to Plex, or you can cast directly from YouTube.
 
 # installation
-1. install portaudio dependencies 
+⋅⋅1. install portaudio dependencies 
 ```
 sudo apt-get install libasound-dev
 ```
-2. download portaudio from [here](http://portaudio.com/download.html)
-3. unzip the archive
+⋅⋅2. download portaudio from [here](http://portaudio.com/download.html)
+⋅⋅3. unzip the archive
 ```
 tar -zxvf [portaudio.tgz](will not be called this)
 ```
-4. enter the directory
-5. configure and make
+⋅⋅4. enter the directory
+⋅⋅5. configure and make
 ```
 ./configure && make
 ```
-6. install
+⋅⋅6. install
 ```
 sudo make install
 ```
-7. install again
+⋅⋅7. install again
 ```
 sudo pip install pyaudio
 ```
-8. git clone this repository
+⋅⋅8. git clone this repository
 ```
 git clone https://github.com/kanrinsha/omega.git && cd omega
 ```
-9. install dependencies
+⋅⋅9. install dependencies
 ```
 pip install -r requirements.txt
 ```
-10. open config.ini and enter api keys for provided services
-11. run omega.py
+⋅⋅10. open config.ini and enter api keys for provided services
+⋅⋅11. run omega.py
 ```
 python omega.py
 ```
@@ -50,10 +50,10 @@ The current commands you can ask it is:
   4. Date and time.
 # WIP commands
 Soon to be released commands, also I do have this working currently but they are not stable:
-  ~~1. Chromecast streaming with Youtube, Spotify and Plex~~
-  2. SMS recieving and sending...
-  3. Calculator
-  4. Timer
-  5. Playing music
-  6. IFTTT compatability
+⋅⋅~~1. Chromecast streaming with Youtube, Spotify and Plex~~
+⋅⋅2. SMS recieving and sending...
+⋅⋅3. Calculator
+⋅⋅4. Timer
+⋅⋅5. Playing music
+⋅⋅6. IFTTT compatability
 If you want another feature feel free to ask.
