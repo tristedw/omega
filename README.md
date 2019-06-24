@@ -2,7 +2,7 @@
 python voice assistant with IOT and Chromecast compatability V0.2
 
 # about
-A python voice assistant, which is capable of controlling sonoff devices flashed with the [tasmota](https://github.com/arendst/Sonoff-Tasmota) firmware or even non modified Wemo smart plugs. You can also cast to a chromecast with ethier setting up and using [FlexTV](https://github.com/d8ahazard/FlexTV) to cast to Plex, or you can cast directly from YouTube.
+A python voice assistant, which is capable of controlling sonoff devices flashed with the [tasmota](https://github.com/arendst/Sonoff-Tasmota) firmware or even non modified Wemo smart plugs. You can also cast to a chromecast with ethier setting up and using [FlexTV](https://github.com/d8ahazard/FlexTV) to cast to Plex, or you can cast directly from YouTube. Aswell as many other features.
 
 # installation
   1. install PyAudio and dependencies 
@@ -53,12 +53,18 @@ The current commands you can ask it is: (You have to say the hotword and hear th
   2. Cast to a chromecast with Plex, or YouTube.
   
     Say 'chromecast stream youtube [youtube video name or channel name]'(will get the latest video if you say channel)
+    Say 'chromecast stream movie [movie name]'
     
   3. Weather based on geoip and using openweathermap
   
     Say anything close to what's the weather (multiple keywords for less remembering)
     
-  4. Date and time.
+  4. Wolframalpha
+    
+    Say 'what is [thing]'
+    Say 'who is [thing]'
+    
+  5. Date and time.
   
     Say anything close to what's the time
     
