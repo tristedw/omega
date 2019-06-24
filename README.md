@@ -45,13 +45,18 @@ The keyword is "Omega" so once the application states that it is "Listening..." 
 # commands
 The current commands you can ask it is:
   1. Turn on or off a smart device configureable ip in the config.ini file
+    Say 'Turn off [device]' to turn a configured device off
+    Say 'Turn on' [device]' to turn a configured device on
   2. Cast to a chromecast with Plex, or YouTube.
+    Say 'chromecast stream youtube [youtube video name or channel name]'(will get the latest video if you say channel)
   3. Weather based on geoip and using openweathermap
+    Say anything close to what's the weather (multiple keywords for less remembering)
   4. Date and time.
+    Say anything close to what's the time
 # WIP commands
 Soon to be released commands, also I do have this working currently but they are not stable:
 
-  ~~1. Chromecast streaming with Youtube, Spotify and Plex~~
+  ~~1. Chromecast streaming with Youtube, Spotify and Plex~~ V0.2
   
   2. SMS recieving and sending...
   
