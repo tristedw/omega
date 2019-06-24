@@ -14,8 +14,8 @@ flextv_api_token = config.get('api_keys', 'flextv_api')
 
 def chromecast_control(command, info):
     if command == "movie":
-        requests.post("http://" + flextv_server_ip + "/FlexTV//api.php?say&apiToken=" + flextv_api_token +
-                      "&command={{play " + info + "}}")
+        requests.post("http://" + flextv_server_ip + "/FlexTV/api.php?say&web=true&command=" + 
+                      command + "&apiToken=" + flextv_api_token)
     if command == "youtube":
         video_id = info
         chromecasts = pychromecast.get_chromecasts()
