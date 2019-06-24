@@ -50,9 +50,16 @@ The current commands you can ask it is:
   4. Date and time.
 # WIP commands
 Soon to be released commands, also I do have this working currently but they are not stable:
+
   ~~1. Chromecast streaming with Youtube, Spotify and Plex~~
+  
   2. SMS recieving and sending...
+  
   3. Calculator
+  
   4. Timer
+  
   5. Playing music
+  
   6. IFTTT compatability
+  
