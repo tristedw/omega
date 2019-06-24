@@ -135,6 +135,8 @@ def recognize_callback():
         print('ugh oh...')
     except configparser.NoOptionError:
         print('no device...')
+    except speech_recognition.WaitTimeoutError:
+        print('timed out...')
 
 
 model = 'Omega.pmdl'
