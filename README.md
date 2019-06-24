@@ -1,8 +1,8 @@
 # omega
-python voice assistant with IOT compatability V0.1, just made it
+python voice assistant with IOT and Chromecast compatability V0.2
 
 # about
-A python voice assistant, which is capable of controlling sonoff devices flashed with the [tasmota](https://github.com/arendst/Sonoff-Tasmota) firmware or even non modified Wemo smart plugs as well as other features and more to come.
+A python voice assistant, which is capable of controlling sonoff devices flashed with the [tasmota](https://github.com/arendst/Sonoff-Tasmota) firmware or even non modified Wemo smart plugs. You can also cast to a chromecast with ethier setting up and using [FlexTV](https://github.com/d8ahazard/FlexTV) to cast to Plex, or you can cast directly from YouTube.
 
 # installation
 1. install portaudio dependencies 
@@ -41,15 +41,16 @@ pip install -r requirements.txt
 python omega.py
 ```
 # usage
-The keyword is "Omega" so once the application states that it is "Listening..." speak "Omega" wait for the ding sound and ask it a command.
+The keyword is "Omega" so once the application states that it is "Listening..." speak "Omega" wait for the ding sound and ask it a command. You may need to setup snowboy and add the files from the installation into the omega directory, if so watch [this](https://www.youtube.com/watch?v=mUEm05ZAhhI) video. If you want to cast to Plex you will need to install both the Chromecast plugin for Plex and also setup FlexTV, which can be done [here](https://github.com/d8ahazard/FlexTV).
 # commands
 The current commands you can ask it is:
 1. Turn on or off a smart device configureable ip in the config.ini file
-2. Weather based on geoip and using openweathermap
-3. Date and time.
+2. Cast to a chromecast with Plex, or YouTube.
+3. Weather based on geoip and using openweathermap
+4. Date and time.
 # WIP commands
 Soon to be released commands, also I do have this working currently but they are not stable:
-1. Chromecast streaming with Youtube, Spotify and Plex
+~~1. Chromecast streaming with Youtube, Spotify and Plex~~
 2. SMS recieving and sending...
 3. Calculator
 4. Timer
