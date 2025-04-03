@@ -1,3 +1,5 @@
+This was one of my first repos, don't bully the code that much I made this at the age of 12
+
 # omega
 python voice assistant with IOT and Chromecast compatability V0.2
 
